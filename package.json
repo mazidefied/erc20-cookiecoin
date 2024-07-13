@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "description": "Playing around with Ethereum, Solidity, ERC20 etc",
+    "scripts": {
+        "build": "truffle compile",
+        "migrate": "truffle migrate --network development",
+        "serve": "ganache-cli --deterministic",
+        "test": "truffle test"
+    },
+    "devDependencies": {
+        "@openzeppelin/contracts": "^3.4.0",
+        "ganache-cli": "^6.12.2",
+        "truffle": "^5.1.67"
+    }
+}
